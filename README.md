@@ -1,16 +1,39 @@
-# calculator_app
+# ➗ Simple Calculator App
+ - A simple calculator app built using Flutter.
 
-A new Flutter project.
 
-## Getting Started
+## Features
+  - Addition, subtraction, multiplication, power and division operations
+  - Clear button to reset the calculator
+  - Delete button to delete the last digit
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 🤳 Screens
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Home Screen:** User can tap the buttons to perform calculations and the result will be displayed under the inputs in the top of the screen .
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 📁 File Structure
+
+![image](https://github.com/Nadeennoshy/PRODIGY_AD_01/assets/70576667/77da4593-75d4-4768-a3a9-b602ca467b81)
+
+
+
+
+
+## 📱 UI
+
+![calculator](https://github.com/Nadeennoshy/PRODIGY_AD_01/assets/70576667/38cb9187-e089-43ba-84f8-59c0f38b344b)
+
+
+
+## 🎥 Video
+
+
+
+## 🛠 Dependencies
+
+```pubspec.yaml
+  math_expressions
+
+```
