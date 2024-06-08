@@ -33,7 +33,7 @@ class _HomeViewState extends State<HomeView> {
                     textAlign: TextAlign.right,
                     style: const TextStyle(
                       color: kPrimaryColor,
-                      fontSize: 32,
+                      fontSize: 35,
                     ),
                   )),
             ),
