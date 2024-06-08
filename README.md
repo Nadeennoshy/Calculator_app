@@ -16,9 +16,7 @@
 
 ## 📁 File Structure
 
-
-
-
+![image](https://github.com/Nadeennoshy/PRODIGY_AD_01/assets/70576667/614b03b8-4a5b-4aaa-a02a-45aea2bee3cc)
 
 
 
