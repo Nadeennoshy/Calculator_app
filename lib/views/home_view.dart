@@ -1,5 +1,5 @@
+import 'package:calculator_app/constants.dart';
 import 'package:calculator_app/helper/buttons.dart';
-import 'package:calculator_app/main.dart';
 import 'package:calculator_app/widgets/buttons_container.dart';
 import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
@@ -32,7 +32,7 @@ class _HomeViewState extends State<HomeView> {
                     expression,
                     textAlign: TextAlign.right,
                     style: const TextStyle(
-                      color: Color(0xff46384E),
+                      color: kPrimaryColor,
                       fontSize: 32,
                     ),
                   )),
@@ -44,7 +44,7 @@ class _HomeViewState extends State<HomeView> {
                 '= $result',
                 textAlign: TextAlign.right,
                 style: const TextStyle(
-                  color: Color(0xffE9C5FF),
+                  color: kSecondaryColor,
                   fontSize: 48,
                 ),
               ),
@@ -66,7 +66,7 @@ class _HomeViewState extends State<HomeView> {
               ],
             ),
             const Divider(
-              color: Color(0xffE9C5FF),
+              color: kSecondaryColor,
               thickness: 0.5,
               indent: 35,
               endIndent: 35,

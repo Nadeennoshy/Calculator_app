@@ -1,4 +1,4 @@
-import 'package:calculator_app/views/home_view.dart';
+import 'package:calculator_app/views/spash_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,9 +9,9 @@ class CalculatorApp extends StatelessWidget {
   const CalculatorApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeView(),
+      home: SplashView(),
     );
   }
 }
