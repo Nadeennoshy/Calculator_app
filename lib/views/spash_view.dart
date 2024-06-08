@@ -19,7 +19,7 @@ class _SplashViewState extends State<SplashView> {
     navigateToHomeView();
   }
   void navigateToHomeView(){
-    Timer(const Duration(seconds: 10),(){
+    Timer(const Duration(seconds: 3),(){
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(builder: (context)=>HomeView())
       );
